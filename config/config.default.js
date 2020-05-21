@@ -24,7 +24,7 @@ module.exports = appInfo => {
     // myAppName: 'egg',
   };
   // 静态资源配置
-  console.log(appInfo.baseDir, 'xx');
+  console.log(appInfo.baseDir, 'xx1');
   config.static = {
     prefix: '/',
     dir: path.join(appInfo.baseDir, 'app/public/static/dist'),

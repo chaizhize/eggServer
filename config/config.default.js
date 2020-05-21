@@ -37,6 +37,11 @@ module.exports = appInfo => {
     },
     cache: false,
   };
+  config.cluster = {
+    listen: {
+      port: 8005,
+    },
+  };
 
   return {
     ...config,
